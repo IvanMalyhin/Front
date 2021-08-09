@@ -1,0 +1,64 @@
+h1 {
+  color: black;
+}
+h2 {
+  color: black;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+h3 {
+  color: blue;
+  text-align: center;
+}
+body {
+  background-image: url(img/pi.jpg);
+}
+h1,
+h2,
+h3,
+table {
+  background-image: url(img/pi.jpg);
+}
+table {
+  border: 1px solid black;
+  display: inline-block;
+}
+td,
+th {
+  border: 1px solid black;
+}
+input[type="nubmer"] {
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+}
+a.button {
+  border: 3px solid #5f06ee;
+  color: rgb(192, 12, 42);
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  display: block;
+  width: 180px;
+  height: 35px;
+  text-align: center;
+  line-height: 34px;
+  margin-top: 30px;
+}
+input[type="file"] {
+  display: block;
+  margin: 0 auto;
+}
+.someDiv input {
+  display: block;
+  margin: 1em auto;
+}
+.form {
+  text-align: center;
+  width: 100%;
+}
+
+.form a {
+  display: inline-block;
+}

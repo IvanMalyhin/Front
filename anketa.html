@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANKETA</title>
+    <link rel="stylesheet" href="anketa.css" type="text/css" />
+  </head>
+
+  <body>
+    <div class="form">
+      <h2> Заполните пожалуйста все поля </h2>
+
+      <h3>Прикрепите свою фотографию </h3>
+
+      <input name="userfoto" type="file" />
+
+      <div class="someDiv">
+        <h3>Введите свои данные </h3>
+        <input name="name" type="text" placeholder="Введите имя" />
+
+        <input name="name" type="text" placeholder="Введите фамилию" />
+
+        <input name="name" type="text" placeholder="Введите отчество" />
+
+        <input name="data" type="text" placeholder="Ваша дата рождения" />
+
+        <input name="phone" type="text" placeholder="Контактный телефон" />
+      </div>
+
+      <h3>Выберите пол</h3>
+      <div>
+        <input name="gender" type="radio" value="yes" /> Мужской
+        <input name="gender" type="radio" value="no" /> Женский
+      </div>
+      <h3>Введите адрес</h3>
+      <input name="address" type="adress" placeholder="Введите адрес" />
+
+      <h3>Заполните таблицу об образовании</h3>
+      <table>
+        <thead>
+          <th>Место обучения</th>
+          <th>Специальность</th>
+          <th>Дата окончания</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input a="table" /></td>
+            <td><input a="table" /></td>
+            <td><input a="table" /></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Есть ли у вас опыт работы?</h3>
+      <div class="divour">
+        <input name="work-exp" type="radio" value="yes" /> Да
+        <input name="work-exp" type="radio" value="yes" /> Нет
+      </div>
+
+      <h3>Если вы ответили да, заполните таблицу</h3>
+
+      <table>
+        <thead>
+          <th>Место работы</th>
+          <th>Должность</th>
+          <th>Время работы</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input a="table" /></td>
+            <td><input a="table" /></td>
+            <td><input a="table" /></td>
+          </tr>
+        </tbody>
+      </table>
+      <h3> Поле для записи дополнительной информации о себе </h3>
+      <textarea name="text" cols="110" rows="8"></textarea>
+      <div>
+        <h3>Введите дату и время заполнения</h3>
+
+        <input
+          style="margin-block-start: 0px; margin-block-end: 0px"
+          name="chislo"
+          type="datetime-local"
+          placeholder="Введите дату заполнения"
+        />
+      </div>
+
+      <a href="end.html" class="button button-red">Завершить</a>
+    </div>
+  </body>
+</html>

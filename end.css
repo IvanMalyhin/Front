@@ -1,0 +1,17 @@
+h2 {
+  margin-bottom: 40px;
+  color: black;
+}
+body {
+  background-image: url(img/fon3.jpg);
+}
+h2 {
+  position: absolute;
+  left: 37%;
+  bottom: 50%;
+}
+h1 {
+  position: absolute;
+  left: 34%;
+  bottom: 65%;
+}
